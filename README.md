@@ -64,8 +64,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+-
 
 ## Project Schedule
 
