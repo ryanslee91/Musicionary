@@ -46,7 +46,7 @@ strBiographyEN: "Coldplay are a British alternative rock band formed in 1996 by 
 ## Wireframes
 
 For desktop/laptop (not mobile)
-![Wireframe](./assets/css/wf.png)
+![Wireframe](./assets/wf.png)
 
 
 
@@ -84,7 +84,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-![Wireframe](./assets/css/importance.png)
+![Wireframe](./assets/importance.png)
 
 ## Timeframes
 
