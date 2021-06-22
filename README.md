@@ -59,7 +59,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose favorites 
+- Allow user to randomly choose
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
