@@ -6,7 +6,7 @@ Know your artists
 
 ## Project Description
 
- The website that I will be creating for my upcoming final project will provide brief information about artists that users search for.
+ The website that I will be creating for this project will allow users to search artist information by artist name and display relevant data.
  
  Example:
 https://www.theaudiodb.com/
@@ -14,7 +14,7 @@ https://www.theaudiodb.com/
 ## API and Data Sample
 
 
-API: https://www.theaudiodb.com/api_guide.php
+[API](https://www.theaudiodb.com/api_guide.php)
 
 https://www.theaudiodb.com/api/v1/json/1/search.php?s=coldplay
 
@@ -51,26 +51,19 @@ For desktop/laptop (not mobile)
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 
 
-- Find and use external api 
-- Render data on page 
-- Allow user to randomly choose
+- Allow user to search artist using form input
+- Render dynamic contents on page (name, logo, picture, website, label, genre and description.)
+- Remove previous search result
 
 #### PostMVP  
-
 
 - Keep track of previous search history and store it.
 - Add an advertisement section, which changes pictures that are displayed at certain time interval.
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -90,14 +83,21 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| CORE APP STRUCTURE (HTML,CSS,JAVASCRIPT) | H | 2hrs| hrs | hrs |
-| Working with API | H | 1.5hrs| hrs | hrs |
-| MVP | H | 1.5hrs| hrs | hrs |
-| PSEUDOCODE | H | 1.5hrs| hrs | hrs |
-| ACTUAL CODE | H | 2hrs| hrs | hrs |
-| INIT. CLICK. MODEL | H | 1.5hrs| hrs | hrs |
-| POST MVP | H | 2hrs| hrs | hrs |
-| Total | H | 12hrs| hrs | hrs |
+| CORE APP STRUCTURE (HTML,CSS,JAVASCRIPT) | H | 3hrs| hrs | hrs |
+| Researching API | H | 3hrs| hrs | hrs |
+| Insert search parameter into API | H | 3hrs| hrs | hrs |
+| PSEUDOCODE | H | 3hrs| hrs | hrs |
+| API REQUEST(JAVASCRIPT FUNCTION) | H | 3hrs| hrs | hrs |
+| CREATE DYNAMIC HTML ELEMENTS | H | 3hrs| hrs | hrs |
+| UTILIZE FLEXBOX/LAYOUT | H | 3hrs| hrs | hrs |
+| STYLE HTML ELEMENTS | H | 3hrs| hrs | hrs |
+| REMOVE PREVIOUS SEARCH RESULT | H | 3hrs| hrs | hrs |
+| DEBUGGING | H | 3hrs| hrs | hrs |
+| DEPLOYMENT | H | 1hrs| hrs | hrs |
+| ADD UI ELEMENTS | H | 1hrs| hrs | hrs |
+| BUILDING PROJECT WORKSHEET | H | 3hrs| hrs | hrs |
+| APPEND DYNAMIC ELEMENTS | H | 3hrs| hrs | hrs |
+| Total | H | 40hrs| hrs | hrs |
 
 ## Code Snippet
  
