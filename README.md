@@ -84,7 +84,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-![Wireframe](./assets/importance.png)
+![Wireframe](./assets/impt.png) 
 
 ## Timeframes
 
