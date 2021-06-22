@@ -55,14 +55,14 @@ For desktop/laptop (not mobile)
 The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
+
 
 - Find and use external api 
 - Render data on page 
 - Allow user to randomly choose
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+
 
 - Keep track of previous search history and store it.
 - Add an advertisement section, which changes pictures that are displayed at certain time interval.
