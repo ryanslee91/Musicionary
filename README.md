@@ -13,7 +13,6 @@ https://www.theaudiodb.com/
  
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
 API: https://www.theaudiodb.com/api_guide.php
 
