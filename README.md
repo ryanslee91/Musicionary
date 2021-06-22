@@ -94,9 +94,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| hrs | hrs |
-| Working with API | H | 3hrs| hrs | hrs |
-| Total | H | 6hrs| hrs | hrs |
+| CORE APP STRUCTURE (HTML,CSS,JAVASCRIPT) | H | 2hrs| hrs | hrs |
+| Working with API | H | 1.5hrs| hrs | hrs |
+| MVP | H | 1.5hrs| hrs | hrs |
+| PSEUDOCODE | H | 1.5hrs| hrs | hrs |
+| ACTUAL CODE | H | 2hrs| hrs | hrs |
+| INIT. CLICK. MODEL | H | 1.5hrs| hrs | hrs |
+| POST MVP | H | 2hrs| hrs | hrs |
+| Total | H | 12hrs| hrs | hrs |
 
 ## Code Snippet
 
