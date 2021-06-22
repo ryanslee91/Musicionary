@@ -65,7 +65,7 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 *These are examples only. Replace with your own Post-MVP features.*
 
 - Keep track of previous search history and store it.
-- Add an advertisement section, which changes number of pictures at certain time interval.
+- Add an advertisement section, which changes pictures that are displayed at certain time interval.
 
 ## Project Schedule
 
