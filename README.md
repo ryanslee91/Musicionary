@@ -64,7 +64,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
--
+- Keep track of previous search history and store it.
 
 ## Project Schedule
 
