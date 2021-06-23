@@ -67,8 +67,8 @@ For desktop/laptop (not mobile)
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | complete
-|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
+|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
 |June 23| Pseudocode / actual code | Incomplete
 |June 24| Initial Clickable Model  | Incomplete
 |June 25| MVP | Incomplete
