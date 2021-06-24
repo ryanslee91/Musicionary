@@ -57,3 +57,4 @@ function removeArtist() {
 
 //random generator
 //ad section with time interval
+//wed
