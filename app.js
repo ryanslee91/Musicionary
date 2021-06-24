@@ -43,6 +43,7 @@ form.addEventListener('submit', (e) => {
 
   //   alert("Your artist is not found!")
   // how to alert when there is typo, which would bring no data?
+  checkValues()
   removeArtist()
   fetchData(inputValue)
   document.querySelector('#artist-search').value = ''
@@ -54,7 +55,10 @@ function removeArtist() {
     dataContainer.removeChild(dataContainer.lastChild)
   }
 }
-
+function checkValues() {
+  const inputValue = document.querySelector("#artist-search").value;
+  return inputValue.value != "";
+}
 
 //mediaquery
 //flexbox
