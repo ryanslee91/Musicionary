@@ -28,9 +28,8 @@ function showArtInfo(data) {
     <img src="${data.strArtistClearart}" style="height: 150px; width: 150px; display: block; margin-left: auto; margin-right:auto">
     <h4 style="font-family: helvetica; text-align: center">GENRE: ${data.strGenre}</h4>
     <h4 style="font-family: helvetica; text-align: center">LABEL: ${data.strLabel}</h4>
-    <h4 style="font-family: helvetica; text-align: center">WEB: ${data.strFacebook}</h4>
+    <div style="font-family: helvetica; text-align: center"><a href="https://${data.strFacebook}" target="_blank">${data.strArtist}'s Facebook </div>
     `
-  // //how to make facebook website a href? 
   dataContainer.insertAdjacentHTML('beforeend', artInfo)
   return artInfo
 }
@@ -55,6 +54,6 @@ function removeArtist() {
   }
 }
 
-//random generator
-//ad section with time interval
-//wed
+
+//mediaquery
+//flexbox
