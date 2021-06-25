@@ -8,7 +8,7 @@
 //       console.error(error)
 //     })
 // }
-fetchData('linkin_park')
+// fetchData('linkin_park')
 
 async function fetchData(artist) {
   const url = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${artist}`
