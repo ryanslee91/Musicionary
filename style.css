@@ -62,6 +62,8 @@ footer {
 
 #artist-data {
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
+align-content: space-between;
+justify-content: center; 
   
 }
