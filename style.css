@@ -82,7 +82,7 @@ justify-content: center;
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 2) {
+    and (-webkit-device-pixel-ratio : 3) {
   body {
     background-color: rgb(215, 214, 214);
   }
