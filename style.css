@@ -20,6 +20,11 @@ header {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
+  background: url("https://www.cleveland.com/resizer/iX-17fSQ-aO7KH-dVjT9n64ixIo=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/960b45d730/width2048/57e_collage1.jpeg")
+}
+
+#logo {
+margin-top: 4px;
 }
 
 li {
