@@ -76,7 +76,6 @@ justify-content: center;
     and (-webkit-device-pixel-ratio : 3) {
   body {
     background-color: rgb(215, 214, 214);
-    font-size: 10px;
   }
 
   header {
