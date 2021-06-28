@@ -1,4 +1,5 @@
 
+//calling API
 async function fetchData(artist) {
   const url = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${artist}`
   try {
@@ -14,6 +15,7 @@ async function fetchData(artist) {
   }
 }
 
+//showing selected data from API
 function showArtInfo(data) {
   const dataContainer = document.querySelector('#artist-data')
   let artInfo = `
@@ -28,6 +30,7 @@ function showArtInfo(data) {
   return artInfo
 }
 
+//search bar functions
 const form = document.querySelector('#artist-form')
 form.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -37,9 +40,21 @@ form.addEventListener('submit', (e) => {
   document.querySelector('#artist-search').value = ''
 })
 
+//removing previous result
 function removeArtist() {
   const dataContainer = document.querySelector('#artist-data')
   while (dataContainer.lastChild) {
     dataContainer.removeChild(dataContainer.lastChild)
   }
+}
+// hover Instagram (image size change)
+// source from https://www.w3schools.com/jsref/event_onmouseover.asp
+function bigImg(x) {
+  x.style.height = "35px";
+  x.style.width = "35px";
+}
+
+function normalImg(x) {
+  x.style.height = "20px";
+  x.style.width = "20px";
 }
