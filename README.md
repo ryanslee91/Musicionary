@@ -83,20 +83,20 @@ For desktop/laptop (not mobile)
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| CORE APP STRUCTURE (HTML,CSS,JAVASCRIPT) | H | 3hrs| hrs | hrs |
-| Researching API | H | 3hrs| hrs | hrs |
-| Insert search parameter into API | H | 3hrs| hrs | hrs |
-| PSEUDOCODE | H | 3hrs| hrs | hrs |
-| API REQUEST(JAVASCRIPT FUNCTION) | H | 3hrs| hrs | hrs |
-| CREATE DYNAMIC HTML ELEMENTS | H | 3hrs| hrs | hrs |
-| UTILIZE FLEXBOX/LAYOUT | H | 3hrs| hrs | hrs |
-| STYLE HTML ELEMENTS | H | 3hrs| hrs | hrs |
-| REMOVE PREVIOUS SEARCH RESULT | H | 3hrs| hrs | hrs |
-| DEBUGGING | H | 3hrs| hrs | hrs |
+| CORE APP STRUCTURE (HTML,CSS,JAVASCRIPT) | H | 3hrs| 3hrs | 3hrs |
+| Researching API | H | 3hrs| 2hrs | 2hrs |
+| Insert search parameter into API | H | 3hrs| 3hrs | 3hrs |
+| PSEUDOCODE | H | 3hrs| 2hrs | 2hrs |
+| API REQUEST(JAVASCRIPT FUNCTION) | H | 3hrs| 2.5hrs | 2.5hrs |
+| CREATE DYNAMIC HTML ELEMENTS | H | 3hrs| 3hrs | 3hrs |
+| UTILIZE FLEXBOX/LAYOUT | H | 3hrs| 2hrs | 2hrs |
+| STYLE HTML ELEMENTS | H | 3hrs| 3hrs | 3hrs |
+| REMOVE PREVIOUS SEARCH RESULT | H | 3hrs| 2hrs | 2hrs |
+| DEBUGGING | H | 3hrs| 2hrs | 2hrs |
 | DEPLOYMENT | H | 1hrs| hrs | hrs |
-| ADD UI ELEMENTS | H | 1hrs| hrs | hrs |
-| BUILDING PROJECT WORKSHEET | H | 3hrs| hrs | hrs |
-| APPEND DYNAMIC ELEMENTS | H | 3hrs| hrs | hrs |
+| ADD UI ELEMENTS | H | 1hrs| 1hrs | 1hrs |
+| BUILDING PROJECT WORKSHEET | H | 3hrs| 3hrs | 3hrs |
+| APPEND DYNAMIC ELEMENTS | H | 3hrs| 3hrs | 3hrs |
 | Total | H | 40hrs| hrs | hrs |
 
 ## Code Snippet
