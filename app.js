@@ -1,14 +1,3 @@
-// function fetchData(artist) {
-//   const url = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${artist}`
-//   axios.get(url)
-//     .then((response) => {
-//       console.log(response)
-//     })
-//     .catch((error) => {
-//       console.error(error)
-//     })
-// }
-// fetchData('linkin_park')
 
 async function fetchData(artist) {
   const url = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${artist}`
@@ -16,8 +5,6 @@ async function fetchData(artist) {
     const response = await axios(url)
     if (response.data.artists[0].strArtist === "V") {
       alert("Please write a name!")
-      // } else if (response.data.artists[0].strArtist === 'null') {
-      //   alert("No artist is found!")
     } else {
       // console.log(response.data.artists[0])
       showArtInfo(response.data.artists[0])
