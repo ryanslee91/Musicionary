@@ -4,13 +4,17 @@ body, html {
 }
 
 
+
 header {
   color:#d884b7;
   background-color: black;
   padding: 10px 10px 10px 10px;
   font-weight: bold;
-
+  position: sticky;
+  top: 0;
 }
+
+
 
 .mainImg {
   text-align: center;
