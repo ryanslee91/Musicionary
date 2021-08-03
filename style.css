@@ -3,9 +3,6 @@ html {
 	margin: 0;
 	background-image: url('https://mocah.org/thumbs/5372614-microphone-wallpaper-music-wallpapers-music-background-black-background-stage-spotlight-light-smoke-concert-foggy-haze-black-and-white-monochrome-music-shadow-show-dark-creative-commons-images.jpg');
 	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
 	color: white;
 }
 
@@ -79,26 +76,20 @@ footer {
 	text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 700px) {
 	.mainImg {
 		display: flex;
 		justify-content: center;
 	}
-
-	#logo {
-		width: 800px;
-	}
-
-	body,
-	html {
-		background-size: cover;
-	}
-
 	#artist-data {
 		display: flex;
 		flex-direction: column;
 		align-content: space-between;
 		justify-content: center;
 		color: white;
+	}
+
+	footer {
+		margin-top: 325px;
 	}
 }
