@@ -19,12 +19,11 @@ async function fetchData(artist) {
 function showArtInfo(data) {
   const dataContainer = document.querySelector('#artist-data')
   let artInfo = `
-    <h1 style="font-family: helvetica; text-align: center">${data.strArtist}</h1>
-    <img src="${data.strArtistClearart}" style="height: 150px; width: 150px; display: block; margin-left: auto; margin-right:auto">
-    <h4 style="font-family: helvetica; text-align: center">Genre: ${data.strGenre}</h4>
-    <h4 style="font-family: helvetica; text-align: center">Label: ${data.strLabel}</h4>
+    <h1 id="artistName" style="font-family: helvetica; text-align: center">${data.strArtist}</h1>
+    <img id="artistImg" src="${data.strArtistClearart}" style="height: 150px; width: 150px; display: block; margin-left: auto; margin-right:auto">
+    <h4 id="artistGenre" style="font-family: helvetica; text-align: center;">Genre: ${data.strGenre}</h4>
     <h4 style="font-family: helvetica; color: black; text-align: center; color: white;">${data.strBiographyEN}</h4>
-    <div style="font-family: helvetica; font-weight: bold; text-align: center"><a href="https://${data.strWebsite}" target="_blank">Visit ${data.strArtist}'s Website </div>
+    <div style="font-family: helvetica; font-weight: bold; text-align: center;"><a href="https://${data.strWebsite}" target="_blank">Visit ${data.strArtist}'s Website </div>
     `
   dataContainer.insertAdjacentHTML('beforeend', artInfo)
   return artInfo
