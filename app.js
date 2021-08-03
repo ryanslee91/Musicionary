@@ -1,3 +1,47 @@
+const favArtistsArr = [];
+let addFavArtists = '';
+
+const addFavorites = document.querySelector("#addFav")
+
+function addToFavorites(artistData) {
+  favArtistsArr.push(artistData.data)
+  localStorage.setItem("favorites", JSON.stringify(favArtistsArr))
+}
+
+addFavorites.addEventListener("click", () => {
+  addToFavorites(addFavArtists)
+})
+
+// View favorites
+
+const favoritesButton = document.querySelector("#view-favorites")
+
+function viewFavorites() {
+  removeArtist()
+  let favArtist = localStorage.getItem("favorites")
+  favArtist = JSON.parse(favArtist)
+  console.log(favArtist)
+  
+  // Looping through favorites and appending each name and image to the page
+
+  for (let i = 0; i < favArtist.length; i++) {
+    const favoriteInfo = document.createElement("div")
+    favoriteInfo.className = "favorite-container"
+    const name = document.createElement("h3")
+    name.className = "favorite-name"
+    const image = document.createElement("img")
+    image.className = "favorite-artists-image"
+ 
+
+    dataContainer.append(favoriteInfo)
+    favoriteInfo.append(image)
+    favoriteInfo.append(name)
+  }
+
+}
+
+favoritesButton.addEventListener("click", viewFavorites)
+
 
 //calling API
 async function fetchData(artist) {
