@@ -23,7 +23,7 @@ function showArtInfo(data) {
     <img src="${data.strArtistClearart}" style="height: 150px; width: 150px; display: block; margin-left: auto; margin-right:auto">
     <h4 style="font-family: helvetica; text-align: center">Genre: ${data.strGenre}</h4>
     <h4 style="font-family: helvetica; text-align: center">Label: ${data.strLabel}</h4>
-    <h4 style="font-family: helvetica; color: black; text-align: center">${data.strBiographyEN}</h4>
+    <h4 style="font-family: helvetica; color: black; text-align: center; color: white;">${data.strBiographyEN}</h4>
     <div style="font-family: helvetica; font-weight: bold; text-align: center"><a href="https://${data.strWebsite}" target="_blank">Visit ${data.strArtist}'s Website </div>
     `
   dataContainer.insertAdjacentHTML('beforeend', artInfo)

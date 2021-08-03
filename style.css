@@ -1,97 +1,78 @@
-body, html {
-  margin: 0;
-  background-color: #f0f0f0;
+body,
+html {
+	margin: 0;
+	background-image: url('https://mocah.org/thumbs/5372614-microphone-wallpaper-music-wallpapers-music-background-black-background-stage-spotlight-light-smoke-concert-foggy-haze-black-and-white-monochrome-music-shadow-show-dark-creative-commons-images.jpg');
+	background-size: cover;
+	color: white;
 }
 
-
-
-header {
-  color:#d884b7;
-  background-color: black;
-  padding: 10px 10px 10px 10px;
-  font-weight: bold;
-  position: sticky;
-  top: 0;
+.fixed-header {
+	background-color: black;
+	padding: 10px 0px 10px 10px;
+	font-weight: bold;
+	position: sticky;
+	top: 0;
 }
-
-
 
 .mainImg {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  background: url("https://www.cleveland.com/resizer/iX-17fSQ-aO7KH-dVjT9n64ixIo=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/960b45d730/width2048/57e_collage1.jpeg")
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
-
+#homeTitle {
+	font-family: helvetica;
+	font-size: 18px;
+	padding-left: 30px;
+	margin-bottom: 40px;
+}
 #logo {
-margin-top: 4px;
-}
-
-li {
-  display: inline;
-  padding: 10px;
-}
-
-a {
-  color: #d884b7;
-  text-decoration: none;
+	margin-top: 4px;
 }
 
 ul {
-  text-align: right;
-  list-style: none;
-  font-family: helvetica;
-  margin-top: -30px;
-margin-bottom: 5px;
+	text-align: right;
+	list-style: none;
+	font-family: helvetica;
+	margin-top: -60px;
+	margin-bottom: 5px;
 }
 
-#homeTitle {
-  text-align: left;
- 
-  padding: 20px 20px 0px 20px;
+li {
+	display: inline;
+	padding: 10px;
+}
 
-
+a {
+	color: white;
+	text-decoration: none;
 }
 
 .searchBar {
-  text-align: center;
+	text-align: center;
 }
 
-
-
 footer {
-  font-family: helvetica;
-  color: #d884b7;
-  text-align: center;
-  font-size: 10px;
- margin-top: 200px;
- font-weight: bold;
- background-color: #000000;
- padding: 5px;
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	margin-top: 200px;
+	font-weight: bold;
+	background-color: black;
+	padding: 5px;
 }
 
 #artist-data {
-  display: flex;
-  flex-flow: column;
-align-content: space-between;
-justify-content: center; 
-  
+	display: flex;
+	flex-flow: column;
+	align-content: space-between;
+	justify-content: center;
+	color: white;
 }
 
-
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-  body {
-    background-color: rgb(215, 214, 214);
-  }
-
-  header {
-    background-color: white;
-  }
-
-  footer {
-    background-color: white;
-  }
+@media (max-width: 700px) {
+	.mainImg {
+		display: flex;
+		justify-content: center;
+	}
 }
