@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Know your artists
+MUSICIONARY
 
 https://ryanslee91.github.io/ryan_project1/
 
