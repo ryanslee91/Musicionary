@@ -1,47 +1,8 @@
-const favArtistsArr = [];
-let addFavArtists = '';
-
-const addFavorites = document.querySelector("#addFav")
-
-function addToFavorites(artistData) {
-  favArtistsArr.push(artistData.data)
-  localStorage.setItem("favorites", JSON.stringify(favArtistsArr))
-}
-
-addFavorites.addEventListener("click", () => {
-  addToFavorites(addFavArtists)
-})
-
-// View favorites
-
-const favoritesButton = document.querySelector("#view-favorites")
-
-function viewFavorites() {
-  removeArtist()
-  let favArtist = localStorage.getItem("favorites")
-  favArtist = JSON.parse(favArtist)
-  console.log(favArtist)
-  
-  // Looping through favorites and appending each name and image to the page
-
-  for (let i = 0; i < favArtist.length; i++) {
-    const favoriteInfo = document.createElement("div")
-    favoriteInfo.className = "favorite-container"
-    const name = document.createElement("h3")
-    name.className = "favorite-name"
-    const image = document.createElement("img")
-    image.className = "favorite-artists-image"
- 
-
-    dataContainer.append(favoriteInfo)
-    favoriteInfo.append(image)
-    favoriteInfo.append(name)
-  }
-
-}
-
-favoritesButton.addEventListener("click", viewFavorites)
-
+//Global variables
+const form = document.querySelector('#search-form');
+const dataContainer = document.querySelector('#data-container');
+const favoriteArtistsArr = [];
+let saveArtistObj = "";
 
 //calling API
 async function fetchData(artist) {
@@ -59,9 +20,14 @@ async function fetchData(artist) {
   }
 }
 
+//assign data from API
+
+
+
 //showing selected data from API
 function showArtInfo(data) {
-  const dataContainer = document.querySelector('#artist-data')
+  saveArtistObj = data;
+  console.log(saveArtistObj);
   let artInfo = `
     <img src="${data.strArtistClearart}" style="height: 150px; width: 150px; display: block; margin-left: auto; margin-right:auto">
     <h1 style="font-family: helvetica; text-align: center">${data.strArtist}</h1>
@@ -75,7 +41,6 @@ function showArtInfo(data) {
 }
 
 //search bar functions
-const form = document.querySelector('#artist-form')
 form.addEventListener('submit', (e) => {
   e.preventDefault()
   const inputValue = document.querySelector('#artist-search').value
@@ -91,6 +56,42 @@ function removeArtist() {
     dataContainer.removeChild(dataContainer.lastChild)
   }
 }
+
+// //add to favorites
+const addFavorites = document.querySelector("#addFav");
+
+function saveToFav(data) {
+  favoriteArtistsArr.push(data)
+  localStorage.setItem("favorites", JSON.stringify(favoriteArtistsArr))
+}
+
+addFavorites.addEventListener("click", () => {
+  saveToFav(saveArtistObj)
+})
+
+// // View favorites
+
+const viewFavButton = document.querySelector("#view-favorites");
+
+function viewFavorites() {
+  removeArtist();
+  let favArtist = localStorage.getItem("favorites")
+  favArtist = JSON.parse(favArtist)
+  console.log(favArtist)
+
+  // append name of artist to the favorites page by looping
+  for (let i = 0; i < favArtist.length; i++) {
+    const favInfo = document.createElement("div")
+    favInfo.className = "fav-container"
+    const name = document.createElement("h3")
+    name.className = "fav-name"
+    dataContainer.append(favInfo)
+    favInfo.append(name)
+  }
+}
+
+viewFavButton.addEventListener("click", viewFavorites)
+
 // hover Instagram (image size change)
 // source from https://www.w3schools.com/jsref/event_onmouseover.asp
 function bigImg(x) {
