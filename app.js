@@ -51,7 +51,6 @@ form.addEventListener('submit', (e) => {
 
 //removing previous result
 function removeArtist() {
-  const dataContainer = document.querySelector('#artist-data')
   while (dataContainer.lastChild) {
     dataContainer.removeChild(dataContainer.lastChild)
   }
@@ -85,6 +84,7 @@ function viewFavorites() {
     favInfo.className = "fav-container"
     const name = document.createElement("h3")
     name.className = "fav-name"
+    name.innerText = favArtist[i].strArtist
     dataContainer.append(favInfo)
     favInfo.append(name)
   }

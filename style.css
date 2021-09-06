@@ -4,7 +4,12 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
+}
+
+.fav-container {
+	display: flex;
 	color: white;
+	justify-content: center;
 }
 
 .fixed-header {
