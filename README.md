@@ -4,7 +4,7 @@
 
 MUSICIONARY
 
-ttps://ryanslee91.github.io/Musicionary/
+https://ryanslee91.github.io/Musicionary/
 
 ## Project Description
 
