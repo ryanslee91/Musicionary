@@ -92,6 +92,9 @@ function viewFavorites() {
 
 viewFavButton.addEventListener("click", viewFavorites)
 
+//main title animation css
+
+
 // hover Instagram (image size change)
 // source from https://www.w3schools.com/jsref/event_onmouseover.asp
 function bigImg(x) {
